@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client"
-import { CssModule } from "./CssModule"
+import { App } from "./App";
 
 const r = document.getElementById('root');
 const root = createRoot(r);
-root.render(<CssModule />);
+root.render(<App />);
